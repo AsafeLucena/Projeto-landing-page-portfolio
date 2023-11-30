@@ -15,6 +15,8 @@
   --switch-bg-url: url(assets/assets/moon-stars.svg); 
   --backgroun-titulo: rgba(153, 18, 187, 0.205);
   --border-color: rgba(153, 53, 153, 0.8);
+  --hover-button: rgba(255, 255, 255, 0.1);
+  
 }
  .light{
   --text-color: black;
@@ -26,6 +28,7 @@
    --switch-bg-url: url(assets/assets/sun.svg);
     --backgroun-titulo: rgb(0, 0, 0, 0.1);
     --border-color: rgba(0, 0, 0, 0.5);
+    --hover-button: rgba(0, 0, 0, 0.12);
 } 
 body {
 background: var(--bg-url) no-repeat top center/cover;
@@ -100,22 +103,24 @@ justify-content: center;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  pointer-events: none;
+  pointer-events: none; 
   cursor: pointer;
   position: absolute;
   right: 32px;
   transform: translateY(-50%);
   top: 50%;
   transition: all 0.3s ease-in-out;
+  animation: slide-back 0.2s;
 }
 
 .toogle-input:checked ~ .slider {
   background: rgba(103, 7, 133, 0.9);
+  transition: background 0.9s;
   
 }
 .toogle-input:checked ~ .slider > .button {
   background: white var(--switch-bg-url) no-repeat center; 
-  left: 32px;
+  animation: slide-in 0.2s forwards;
   }
   .toogle-input{
     display: none;
@@ -184,4 +189,26 @@ ul li a:hover{
     --bg-url: url(/assets/assets/bg-desktop-light.jpg);
   }
 }
- 
+
+/*animação slide do botão*/
+ @keyframes slide-in {
+  from{
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+ }
+ @keyframes slide-back {
+  from{
+    left: 50%;
+  }
+  to{
+    left:0;
+  }
+ }
+/*hover do botão*/
+ .toogle-wrapper:hover .button {
+  outline: 8px solid var(--hover-button);
+  transition: background 0.2s;
+}
