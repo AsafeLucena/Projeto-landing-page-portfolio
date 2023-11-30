@@ -16,7 +16,7 @@ Projeto página agredadora de links para portfólios, currículos e redes sociai
 <br>
 
 <p align="center">
-  <img alt="projeto" src="/assets/assets/Projeto landing page portfóio2.png" width="100%">
+  <img alt="projeto" src="/assets/assets/Projeto landing page portfóio.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
