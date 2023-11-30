@@ -28,7 +28,8 @@
     --border-color: rgba(0, 0, 0, 0.5);
 } 
 body {
-background: var(--bg-url) no-repeat top center/cover
+background: var(--bg-url) no-repeat top center/cover;
+height: 100vh;
 }
 body * {
   font-family: 'Inter', sans-serif;
@@ -38,7 +39,7 @@ body * {
 #container{
 margin: auto; 
 width: 100%;
-max-width: 588px;
+max-width: 400px;
 margin-top: 56px;
 padding: 0px 24px;
 
@@ -67,10 +68,11 @@ font-size: 18px;
 
 }
 h1{
-  background-color: var(--backgroun-titulo);
+  
+background-color: var(--backgroun-titulo);
   border-radius: 8px;
   border: 2px solid var(--border-color); 
-
+   
 }
 h5{
   margin: 10px;
@@ -174,5 +176,12 @@ ul li a:hover{
     
     
   }
-
+@media (min-width: 700px){
+  :root{
+    --bg-url: url(/assets/assets/bg-desktop.jpg);
+  }
+  .light{
+    --bg-url: url(/assets/assets/bg-desktop-light.jpg);
+  }
+}
  
