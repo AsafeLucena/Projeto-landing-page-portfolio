@@ -7,7 +7,7 @@ Projeto página agredadora de links para portfólios, currículos e redes sociai
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   
 </p>
 
@@ -30,4 +30,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+Esse projeto é um agregador de links para usar como cartão de visitas online direcionando para outras páginas, como portfólios e redes sociais, além de um design simples, objetivo e prático, ainda conta com a ativação de dois modos de tela (dark mode e light mode) ao apertar o botão no centro.
