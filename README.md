@@ -16,7 +16,8 @@ Projeto página agredadora de links para portfólios, currículos e redes sociai
 <br>
 
 <p align="center">
-  <img alt="projeto" src="/assets/assets/Projetolandingpageportfóio2.png" width="100%">
+  <img alt="projeto" src="![Projeto landing page portfóio](https://github.com/AsafeLucena/Projeto-landing-page-portfolio/assets/148495630/03998063-dc5c-402e-98b9-0c676f9093db)
+" width="100%">
 </p>
 
 ## 🚀 Tecnologias
