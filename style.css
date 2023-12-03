@@ -7,7 +7,7 @@
 /*Estilos do modo escuro e modo claro(light)*/
 :root{
   --text-color: white;
-  --bg-url: url(assets/bg-desktop.jpg);
+  --background-img: url(assets/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -20,7 +20,7 @@
 }
  .light{
   --text-color: black;
-  --bg-url: url(assets/bg-desktop-light.jpg);
+  --background-img: url(assets/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
    --surface-color: rgba(0, 0, 0, 0.1);
    --surface-color-hover: rgba(0, 0, 0, 0.15);
@@ -29,10 +29,10 @@
     --backgroun-titulo: rgb(0, 0, 0, 0.1);
     --border-color: rgba(0, 0, 0, 0.5);
     --hover-button: rgba(0, 0, 0, 0.12);
-    --bg-dialog: url(assets/bg-desktop-light.jpg);
+     --bg-dialog: white;
 } 
 body {
-background: var(--bg-url) no-repeat top center/cover;
+background: var(--background-img) no-repeat top center/cover;
 height: 100vh;
 
 }
