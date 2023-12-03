@@ -7,29 +7,29 @@
 /*Estilos do modo escuro e modo claro(light)*/
 :root{
   --text-color: white;
-  --bg-url: url(/assets/assets/bg-desktop.jpg);
+  --bg-url: url(assets/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color-hover: rgba(255, 255, 255, 0.05);
-  --switch-bg-url: url(assets/assets/moon-stars.svg); 
+  --switch-bg-url: url(assets/moon-stars.svg); 
   --backgroun-titulo: rgba(153, 18, 187, 0.205);
   --border-color: rgba(153, 53, 153, 0.8);
   --hover-button: rgba(255, 255, 255, 0.1);
-  --bg-dialog: url(/assets/assets/fundo4.png);
+  --bg-dialog: url(assets/fundo4.png);
 }
  .light{
   --text-color: black;
-  --bg-url: url(/assets/assets/bg-desktop-light.jpg);
+  --bg-url: url(assets/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
    --surface-color: rgba(0, 0, 0, 0.1);
    --surface-color-hover: rgba(0, 0, 0, 0.15);
    --highlight-color-hover: rgba(0, 0, 0, 0.23);
-   --switch-bg-url: url(assets/assets/sun.svg);
+   --switch-bg-url: url(assets/sun.svg);
     --backgroun-titulo: rgb(0, 0, 0, 0.1);
     --border-color: rgba(0, 0, 0, 0.5);
     --hover-button: rgba(0, 0, 0, 0.12);
-    --bg-dialog: url(/assets/assets/bg-desktop-light.jpg);
+    --bg-dialog: url(assets/bg-desktop-light.jpg);
 } 
 body {
 background: var(--bg-url) no-repeat top center/cover;
