@@ -259,11 +259,8 @@ ul li a:hover{
   to{
     left:0;
   }
-  
  }
- @keyframes slide{
-  
- }
+ 
 /*hover do botão*/
  .toogle-wrapper:hover .button {
   outline: 8px solid var(--hover-button);
