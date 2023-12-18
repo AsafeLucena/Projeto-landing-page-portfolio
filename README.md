@@ -16,7 +16,7 @@ Projeto página agredadora de links para portfólios, currículos e redes sociai
 <br>
 
 <p align="center">
-  <img alt="projeto" src="/assets/assets/Projeto landing page portfóio.png" width="100%">
+  <img alt="projeto" src="assets/Projeto landing page portfóio.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -31,3 +31,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Esse projeto é um agregador de links para usar como cartão de visitas online direcionando para outras páginas, como portfólios e redes sociais, além de um design simples, objetivo e prático, ainda conta com a ativação de dois modos de tela (dark mode e light mode) ao apertar o botão no centro.
+<p align="center">
+ Para visualizar o projeto online <a href="https://asafelucena.github.io/portfolio/#">clique aqui. </a>
+  
+</p>
+
+
