@@ -153,9 +153,8 @@ justify-content: center;
   height: 200px;
 }
 dialog{
-  width: 80%;
+  width: auto;
   margin: auto;
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -163,6 +162,7 @@ dialog{
   border-radius: 30px;
   padding: 40px;
   box-shadow: 0 0 1em rgb(0, 0, 0, 1);
+  overflow-y: auto;
 
 }
 dialog p {
