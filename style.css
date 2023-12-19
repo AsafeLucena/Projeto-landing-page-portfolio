@@ -34,7 +34,7 @@
 body {
 background: var(--background-img) no-repeat top center/cover;
 min-height: 100vh;
-overflow: hidden;
+overflow-y: auto;
 
 }
 body * {
