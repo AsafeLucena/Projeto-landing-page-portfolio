@@ -238,6 +238,13 @@ ul li a:hover{
   .light{
     --bg-url: url(/assets/bg-mobile-light.jpg);
   }
+
+}
+@media (max-width: 768px) {
+  body {
+    background-size: cover; 
+  }
+  
 }
 
 /*animação slide do botão*/
