@@ -48,28 +48,25 @@ max-width: 400px;
 margin-top: 56px;
 padding: 0px 24px;
 
-
- 
 } 
-#perfil {
-  margin: auto;
-  position: top center;
-}
+
 #profile{
 text-align: center;
 padding: 24px;
 margin-top: 8px;
+align-items: center;
 }
 #profile img {
-display: block;
 width: 150px;
-margin: auto;
+margin: 2px;
+border: 2px solid rgba(153, 53, 153, 0.8);
+border-radius: 50%;
 }
 
 #profile p {
-font-weight: 500;
-line-height: 24px;
-font-size: 18px;
+font-weight: 800;
+line-height: 25px;
+font-size: 20px;
 
 }
 h1{
