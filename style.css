@@ -33,7 +33,7 @@
 } 
 body {
 background: var(--background-img) no-repeat top center/cover;
-height: 100vh;
+min-height: 100vh;
 
 }
 body * {
