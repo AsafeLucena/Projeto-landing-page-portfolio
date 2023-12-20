@@ -17,7 +17,8 @@ function toogleMode() {
 
 const button = document.querySelector("#button")
 const modal = document.querySelector("dialog")
-const buttonClose = document.querySelector("dialog button")
+const buttonClose = document.querySelector("#closebutton")
+const buttonTop = document.querySelector("#buttonTop")
 
 button.onclick = function(){
   modal.showModal()
@@ -25,3 +26,6 @@ button.onclick = function(){
 buttonClose.onclick = function(){
   modal.close()
 }
+ buttonTop.onclick = function(){
+   modal.close()
+ }
