@@ -48,7 +48,7 @@ body * {
 margin: auto; 
 width: 100%;
 max-width: 400px;
-margin-top: 56px;
+margin-top: 35px;
 padding: 0px 24px;
 
 } 
@@ -288,8 +288,8 @@ ul li a:hover{
   .light{
   --text-color: black;
   --background-img: url(assets/bg-mobile-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.3);
-   --surface-color: rgba(0, 0, 0, 0.06);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+   --surface-color: rgba(0, 0, 0, 0.04);
    --surface-color-hover: rgba(0, 0, 0, 0.13);
    --highlight-color-hover: rgba(0, 0, 0, 0.23);
    --switch-bg-url: url(assets/sun.svg);
@@ -299,6 +299,19 @@ ul li a:hover{
      --bg-dialog: url(assets/bg-desktop-light.jpg);
      --button-top: rgb(0, 0, 0, 0.1);
 } 
+ #container{
+margin: auto; 
+width: 100%;
+max-width: 100%;
+margin-top: 8px;
+padding: 0px 24px;
+
+
+} 
+h5{
+  margin: 10px 0 0 0;
+  font-weight: 550;
+}
 }
 @media only screen and (max-width: 600px) {
   #dialog > p {
@@ -308,7 +321,7 @@ ul li a:hover{
     font-weight: 500;
     min-width: 70vw;
   }
-
+  
 }
 @media only screen and (max-width: 600px) {
   #closebutton {
@@ -328,15 +341,9 @@ ul li a:hover{
     max-width: 95%;
     padding: 15px; 
   }
-  #container{
-margin: auto; 
-width: 100%;
-max-width: 400px;
-margin-top: 56px;
-padding: 0px 24px;
-
-} 
+ 
 }
+
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   #dialog {
     max-height: 90vh; 
@@ -350,6 +357,19 @@ padding: 0px 24px;
     max-width: 95%;
     padding: 15px; 
   }
+   #container{
+margin: auto; 
+width: 100%;
+max-width: 100%;
+margin-top: 8px;
+padding: 0px 24px;
+
+
+} 
+h5{
+  margin: 10px 0 0 0;
+  font-weight: 550;
+}
 }
 @media only screen and (min-width: 1024px) {
  #dialog {
