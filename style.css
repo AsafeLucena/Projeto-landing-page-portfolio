@@ -97,6 +97,7 @@ justify-content: center;
   border: 1px solid var(--stroke-color);
   border-radius: 24px;
   position: relative;
+  
 
 }
 .button{
@@ -115,6 +116,18 @@ justify-content: center;
   animation: slide-back 0.2s;
   
 }
+
+.pseudo-button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 32px;
+  transform: translateY(-50%);
+  top: 50%;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
 
 .toogle-input:checked ~ .slider {
   background: rgba(103, 7, 133, 0.9);
@@ -174,9 +187,9 @@ justify-content: center;
 #dialog > p {
   text-align: left;
   font-weight: 500;
-  margin: 25px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 20px;
+  margin-left: 15;
+  margin-right: 15;
   
 }
 #closebutton {

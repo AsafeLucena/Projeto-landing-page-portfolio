@@ -13,6 +13,7 @@ function toogleMode() {
       // Remova a classe light do body se o checkbox não estiver marcado
       body.classList.remove('light');
     }
+    
   }
 
 const button = document.querySelector("#button")
